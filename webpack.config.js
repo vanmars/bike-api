@@ -16,7 +16,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'project',
+      title: 'bike-api',
       template: './src/index.html',
       inject: 'body'
     }),
