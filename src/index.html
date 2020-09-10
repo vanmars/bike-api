@@ -6,6 +6,16 @@
   <title>Find Your Bike</title>
 </head>
 <body>
-  
+  <div class="container">
+    <form>
+      <label for="zipCode">Enter ZIP code</label>
+      <input id="zipCode" type="number"></input>      
+      <label for="distance">Enter distance around zip to search</label>
+      <input id="distance" type="number"></input>
+      <button type="submit" id="searchButton" class="btn">Submit Search</button>
+    </form>
+    <div class="showBikes"></div>
+    <div class="showErrors"></div>
+  </div>  
 </body>
 </html>
